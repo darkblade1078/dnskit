@@ -1,0 +1,73 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const alliancesCall_1 = __importDefault(require("./calls/alliancesCall"));
+const loanHistoryCall_1 = __importDefault(require("./calls/loanHistoryCall"));
+const nationCall_1 = __importDefault(require("./calls/nationCall"));
+const nationsCall_1 = __importDefault(require("./calls/nationsCall"));
+const projectsCall_1 = __importDefault(require("./calls/projectsCall"));
+const membersContributionsCall_1 = __importDefault(require("./calls/membersContributionsCall"));
+const memberTechCall_1 = __importDefault(require("./calls/memberTechCall"));
+const memberMilitaryCall_1 = __importDefault(require("./calls/memberMilitaryCall"));
+const memberEffectsCall_1 = __importDefault(require("./calls/memberEffectsCall"));
+const allianceLoanHistoryCall_1 = __importDefault(require("./calls/allianceLoanHistoryCall"));
+const allianceBankHistoryCall_1 = __importDefault(require("./calls/allianceBankHistoryCall"));
+const allianceGrantHistoryCall_1 = __importDefault(require("./calls/allianceGrantHistoryCall"));
+const allianceEquipmentTransactionHistoryCall_1 = __importDefault(require("./calls/allianceEquipmentTransactionHistoryCall"));
+const allianceEquipmentCall_1 = __importDefault(require("./calls/allianceEquipmentCall"));
+const allianceBankCall_1 = __importDefault(require("./calls/allianceBankCall"));
+const allianceTaxIncomeCall_1 = __importDefault(require("./calls/allianceTaxIncomeCall"));
+const allianceApplicationsCall_1 = __importDefault(require("./calls/allianceApplicationsCall"));
+const allianceGrantRequestCall_1 = __importDefault(require("./calls/allianceGrantRequestCall"));
+const allianceLoanRequestCall_1 = __importDefault(require("./calls/allianceLoanRequestCall"));
+const memberBankHistoryCall_1 = __importDefault(require("./calls/memberBankHistoryCall"));
+const memberEquipmentTransactionHistoryCall_1 = __importDefault(require("./calls/memberEquipmentTransactionHistoryCall"));
+const memberTradeHistoryCall_1 = __importDefault(require("./calls/memberTradeHistoryCall"));
+const memberBuildingCall_1 = __importDefault(require("./calls/memberBuildingCall"));
+const memberPolicyLastRanCall_1 = __importDefault(require("./calls/memberPolicyLastRanCall"));
+const memberContributionsCall_1 = __importDefault(require("./calls/memberContributionsCall"));
+const memberDepositsCall_1 = __importDefault(require("./calls/memberDepositsCall"));
+const memberInventoryCall_1 = __importDefault(require("./calls/memberInventoryCall"));
+const memberFundsCall_1 = __importDefault(require("./calls/memberFundsCall"));
+const nationWarHistoryCall_1 = __importDefault(require("./calls/nationWarHistoryCall"));
+const nationWarActionHistoryCall_1 = __importDefault(require("./calls/nationWarActionHistoryCall"));
+const allianceWarHistoryCall_1 = __importDefault(require("./calls/allianceWarHistoryCall"));
+class DnsAPI {
+    constructor() {
+        this.nationCall = nationCall_1.default;
+        this.nationsCall = nationsCall_1.default;
+        this.projectsCall = projectsCall_1.default;
+        this.loanHistoryCall = loanHistoryCall_1.default;
+        this.alliancesCall = alliancesCall_1.default;
+        this.memberContributionsCall = membersContributionsCall_1.default;
+        this.memberTechCall = memberTechCall_1.default;
+        this.memberMilitaryCall = memberMilitaryCall_1.default;
+        this.memberEffectsCall = memberEffectsCall_1.default;
+        this.allianceBankHistoryCall = allianceBankHistoryCall_1.default;
+        this.allianceGrantHistoryCall = allianceGrantHistoryCall_1.default;
+        this.allianceLoanHistoryCall = allianceLoanHistoryCall_1.default;
+        this.allianceEquipmentTransactionHistoryCall = allianceEquipmentTransactionHistoryCall_1.default;
+        this.allianceEquipmentCall = allianceEquipmentCall_1.default;
+        this.allianceBankCall = allianceBankCall_1.default;
+        this.allianceTaxIncomeCall = allianceTaxIncomeCall_1.default;
+        this.allianceApplicationsCall = allianceApplicationsCall_1.default;
+        this.allianceGrantRequestCall = allianceGrantRequestCall_1.default;
+        this.allianceLoanRequestCall = allianceLoanRequestCall_1.default;
+        this.memberBankHistoryCall = memberBankHistoryCall_1.default;
+        this.memberEquipmentTransactionHistoryCall = memberEquipmentTransactionHistoryCall_1.default;
+        this.memberTradeHistoryCall = memberTradeHistoryCall_1.default;
+        this.memberBuildingsCall = memberBuildingCall_1.default;
+        this.memberPolicyLastRan = memberPolicyLastRanCall_1.default;
+        this.memberContributionCall = memberContributionsCall_1.default;
+        this.memberDepositsCall = memberDepositsCall_1.default;
+        this.memberInventoryCall = memberInventoryCall_1.default;
+        this.memberFundsCall = memberFundsCall_1.default;
+        this.nationWarHistoryCall = nationWarHistoryCall_1.default;
+        this.nationWarActionHistoryCall = nationWarActionHistoryCall_1.default;
+        this.allianceWarHistoryCall = allianceWarHistoryCall_1.default;
+    }
+}
+exports.default = DnsAPI;
+//# sourceMappingURL=index.js.map
