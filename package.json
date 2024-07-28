@@ -4,5 +4,23 @@
   },
   "devDependencies": {
     "@types/superagent": "^8.1.8"
-  }
+  },
+  "name": "dnskit",
+  "version": "1.0.0",
+  "description": "A API wrapper for Diplomacy & Strife",
+  "main": "build/src/index.js",
+  "module": "build/src/index.js",
+  "files": [
+    "build"
+  ],
+  "author": "Darkblade",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkblade1078/dnskit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darkblade1078/dnskit/issues"
+  },
+  "homepage": "https://github.com/darkblade1078/dnskit#readme"
 }
