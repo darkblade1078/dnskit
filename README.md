@@ -29,3 +29,34 @@ console.log(`Nation name: ${nation.NationName}`);
 ## Supported API Features
 Here is a list of all supported calls
 ### API Calls
+- nationCall
+- nationsCall
+- projectsCall
+- loanHistoryCall
+- alliancesCall
+- memberContributionsCall
+- memberTechCall
+- memberMilitaryCall
+- memberEffectsCall
+- allianceBankHistoryCall
+- allianceGrantHistoryCall
+- allianceLoanHistoryCall
+- allianceEquipmentTransactionHistoryCall
+- allianceEquipmentCall
+- allianceBankCall
+- allianceTaxIncomeCall
+- allianceApplicationsCall
+- allianceGrantRequestCall
+- allianceLoanRequestCall
+- memberBankHistoryCall
+- memberEquipmentTransactionHistoryCall
+- memberTradeHistoryCall
+- memberBuildingsCall
+- memberPolicyLastRan
+- memberContributionCall
+- memberDepositsCall
+- memberInventoryCall
+- memberFundsCall
+- nationWarHistoryCall
+- nationWarActionHistoryCall
+- allianceWarHistoryCall
