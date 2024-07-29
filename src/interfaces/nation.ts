@@ -39,4 +39,5 @@ export interface Nation {
     PoliticalPowerOutput: number,
     RareMetalOutput: number,
     UraniumOutput: number,
+    OffWars: number
 }
