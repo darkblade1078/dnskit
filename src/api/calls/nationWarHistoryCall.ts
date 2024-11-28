@@ -7,9 +7,9 @@ interface Parameters {
     NationId: number,
     StartDate?: string,
     StarDateEnd?: string,
-    OnlyActive?: boolean,
     OnlyDefensive?: boolean,
     OnlyOffensive?: boolean,
+    PullAll?: boolean
 }
 
 /**
